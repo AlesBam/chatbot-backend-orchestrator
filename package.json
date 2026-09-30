@@ -1,0 +1,29 @@
+{
+  "name": "chatbot-backend-orchestrator",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlesBam/chatbot-backend-orchestrator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlesBam/chatbot-backend-orchestrator/issues"
+  },
+  "homepage": "https://github.com/AlesBam/chatbot-backend-orchestrator#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.3.0"
+  }
+}
